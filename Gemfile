@@ -36,6 +36,8 @@ group :development, :test do
 
   #Api gems
 gem 'active_model_serializers'
+end
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -48,5 +50,5 @@ group :test do
   gem 'ffaker'
 end
 
-end
+gem 'devise'
 
